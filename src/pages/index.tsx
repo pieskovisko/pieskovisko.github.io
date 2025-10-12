@@ -3,7 +3,7 @@ import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import HomepageFeatures from "@site/src/components/HomepageFeatures";
+import TeamProfiles from "@site/src/components/TeamProfiles";
 import Heading from "@theme/Heading";
 
 import styles from "./index.module.css";
@@ -22,7 +22,7 @@ function HomepageHeader() {
 						className="button button--secondary button--lg"
 						to="/docs/intro"
 					>
-						Docusaurus Tutorial - 5min ⏱️
+						Intro
 					</Link>
 				</div>
 			</div>
@@ -39,7 +39,7 @@ export default function Home(): ReactNode {
 		>
 			<HomepageHeader />
 			<main>
-				<HomepageFeatures />
+				<TeamProfiles />
 			</main>
 		</Layout>
 	);

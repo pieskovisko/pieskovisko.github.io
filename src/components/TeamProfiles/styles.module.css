@@ -1,0 +1,100 @@
+.teamSection {
+	padding: 4rem 0;
+	background-color: var(--ifm-background-surface-color);
+}
+
+.teamMemberCard {
+	margin-bottom: 2rem;
+	display: flex;
+	align-items: stretch;
+}
+
+.card {
+	background: var(--ifm-card-background-color);
+	border: 1px solid var(--ifm-color-emphasis-200);
+	border-radius: var(--ifm-card-border-radius);
+	box-shadow: var(--ifm-global-shadow-lw);
+	padding: 1.5rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* .card:hover {
+	transform: translateY(-2px);
+	box-shadow: var(--ifm-global-shadow-md);
+} */
+
+.avatar {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1rem;
+}
+
+.avatarPlaceholder {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: linear-gradient(135deg, var(--ifm-color-primary-light), var(--ifm-color-primary));
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 1.2rem;
+	color: white;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+	flex: 1;
+	text-align: center;
+}
+
+.memberName {
+	margin-bottom: 0.75rem;
+	color: var(--ifm-heading-color);
+	font-size: 1.25rem;
+}
+
+.memberDescription {
+	color: var(--ifm-color-emphasis-800);
+	line-height: 1.6;
+	margin: 0;
+	font-size: 0.95rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 996px) {
+	.teamSection {
+		padding: 2rem 0;
+	}
+	
+	.card {
+		padding: 1.25rem;
+	}
+	
+	.avatarPlaceholder {
+		width: 50px;
+		height: 50px;
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.teamMemberCard {
+		margin-bottom: 1.5rem;
+	}
+	
+	.card {
+		padding: 1rem;
+	}
+	
+	.memberName {
+		font-size: 1.1rem;
+	}
+	
+	.memberDescription {
+		font-size: 0.9rem;
+	}
+}
