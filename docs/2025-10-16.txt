@@ -1,0 +1,37 @@
+- Zistit ci vieme z hodiniek dekodovat raw bt/wifi data, aby to neslo cez cloudovu appku
+- mmWave s meranim tepu (a keby aj viac osob naraz) ludi v miestnosti urcite chceme
+  - Idealne aj keby z rozumnej vzdialenosti
+- Dverove senszory, teplota, vlhkost
+- Hlavne zivotne funkcie a ci nieco potrebuje (je v nudzi)
+- Idealne senzor co nepripiname na cloveka
+- Pozriet angle of arrival s presnostou na centimetre, BT + UWB
+- RGB kamery ako senzory (ppg) - meranie tepu - nemoze posielat obraz
+- Skusit pozriet trackovanie cez WiFi
+- Prometheus - nedrzi data len limitovany cas?
+  - ako indexovat, cistit, aby nerastol extremnym tempom
+- DVG alebo podobny format na modelovanie priestorov
+  - aj svg
+  - teoreticky ani nemusi byt podorys, staci len vediet v akej miestnosti som
+- Tasmota - maly opensource OS pre ESP32
+- On-premise architektura odpojena od internetu
+  - Vrstvova architektura - zber dat, vyhodnocovanie alertov, vizualizacia dat, integracia na ine systemy
+- integracia na modbus
+- SCADA priemyselny system
+- Zigbee asi nema zmysel
+  - BLE 5.0 podporuje MESH
+  - LORA na pokrytie vacsieho uzemia
+  - REDCAP, narrowband
+  - BLE + angle of arrival na lokalizaciu
+
+Do dalsieho tyzdna:
+- prvy nastrel
+- sada konkretnych senzorov na integraciu
+  - co je dostupne
+  - od normalnejsich dodavatelov
+  - aj cinske
+  - co najjednoduchsie integrovatelne
+  - na baterky a rozumna vydrz
+
+- TLR 6-7
+
+- pridat petrika do clickupu
