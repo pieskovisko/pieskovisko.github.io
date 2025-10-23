@@ -1,0 +1,50 @@
+- na Bluetooth je tona lacného hardweru na trhu
+
+databazy:
+- koľko zápisov zvládne Prometheus? (budú stovky až tisícky dát)
+- zamerať sa na ...
+- nesustreďovať sa na ...
+- výkonnostné porovnanie benchmarkov Prometheus a Timescale?
+- budeme potrebovať relačnú databázu
+- ak je rozdiel v consumption malý, tak dáva zmysel skôr relačná a Timescale
+- pred 2 rokmi nezáleží ako teplota, ale 1-2 mesiace hej, napr. že niekto zabudol dať do chladiaceho priestoru (čiže nezahadzovať historické dáta)
+- čo je výkonnostný trade-off a potom čo si môžeme dovoliť
+
+deployment:
+- viete Docker Composition scaleovať?
+- prečo nie Kubertenes? (odpovedali sme)
+- ideálny scenár je aby to bol na jednom železe - MG
+- Kubertenes by bol možno lepší vo future ale chápe
+
+architektúra:
+- s modbusom vieš komunikovať cez Ethernet
+- rátatje s tým, že niečo také 
+- dostaneme modbus s nejakým redkom a číslom wtf, že bude niečo vedieť vypnúť stroj alebo priemyselné hlásiče
+- zoberieš si Python modbus knižnicu, pozrieš si akú máš IPčku a port a je to kód na tri riadky, aby si niečo ovládal
+- granulovať, pridávať rozhrania, ale zatiaľ high-level okay
+
+visualization:
+- skús pozrieť konvertory z DVG do SVG, ak daco daco, tak sa môžeme vysrať na celé DVGčka
+- naimprotuje človek SVG a označí kde sú dvere (ako pri inteligentnom vysávači)
+- toto zatiaľ nevyzeré, že chceme integrovať DVG do tohto
+- poďme sa tváriť či mi nemôžeme dostať SVGčko a robiť s nim
+
+konfigurácia servera:
+- dá sa zmeniť
+- môžeme byť na tímaku vo VMku
+- je to zmigrovateľne na on-premise
+- vyhýbame sa Cloudu
+- on tam nechce ISO, ale nejakú vec pre Kubernety (QCOW2)
+
+- senzory nechceme dať po ESPčkach, ale hotové senzory a hotové hračky, že by sme nevyrábali hotový senzor s ESPčkom
+- má to Cčkový certifikát a dá sa to použiť, keď si to budeme skladať tak to nebude certifikované
+- treba pozrieť čínske firmy
+
+kamera/edge computing:
+- chceme sa pohrať s mm radarom na nejakú vzdialenosť
+- nájdite, zoberte, vyskúšajme (od 3 kusov sa zvyčajne dajú objednávať vzorky)
+
+TODO:
+- popozerajte senzory
+- shopping list (NAJHLAVNEJŠIE)
+- formáty SVG pozrieť
