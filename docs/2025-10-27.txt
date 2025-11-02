@@ -1,0 +1,33 @@
+-bunca prezentoval
+-petrik: raspbery sa trochu bojim , marek mozno bude chciet ist bluetothovym
+-petrik: shopping list do excelu - a to posle mg a on povie
+-petrik: yolo ma rychle vyhodnotenie cez CPIU , ze mozno tam nemusi byt raspberii z gpu , otazka je ze kolko stotiek chces poslat za minutu , ci nebude riesenie cez server dostacujue .. ci fakt musis mat raspberickove boxy , predstav si ze ma jedno pokrytie 30m v tovarni kde este moze byt hromada hrubych stiend atd, ze potom by si musel spamovat raspbericka a to by bol problem aj finance , a k raspberickam musi ist kabelaz a to je tiez problem.
+-navhrli sme ze raspberi bude v ramci mashu a bude tam nejake espcko ktore by preposielalo , petrik sa spytal ze zavisi od toho aku mame architektruu
+-navrhli sme senzor radiacie , petrik povedal okej
+-navrhli sme senzor ovzdusia na , ziadna odozva
+-navrhli sme angle of arrival , petrik naznacil ze to je drahe 
+-petrik: treba kuknut aliexpress a take cinske stranky - 
+-petrika najviac trapia tie bluetoothove senzory ze kde sa nachadzas a tych budeme potrebovat vela a na nich stoji nase riesenie , mozno az 5 na jednu miestnost , cize tie potrebujeme najst nejake lacne ktore by sme mohli nakupit plno 
+-prisiel mg a povedali sme o raspbericku , mg povedal ze minew je dobry  , maju skor na asset tracking , 
+-mg: pozerali ste mokosmart ? 
+-mg: aj v moku aj v minewe vieme zohnat aj tie , co nemaju v store lebo mg tam ma kontakty.
+-PIRko moze byt vyuzitelne MG povedal , v skutocnosti ho mozes pouzivat aj ako door senzor ,
+-mg: angle of arrival kamery moko smart
+-mg: viem ze minew maju na angle , mg povedal ze to nevadi ze je outofstock ,vieme im napisat
+-mg: skuste dat dokopy idealne nejaku excelovsku tabulku kde bude ze senzory ktore chcete s jednotkovou cenou - kolkochcete - kto je dodavatel - a ze co ten senzor dokaze merat a naco ho chceme v tom systeme mat a on sa dohodne s partnermi ze za kolko to vlastne chcem kupit
+-konvertovanie na svgcka mame pozriet
+-svg je dobry format a dobre by sa nam s  nim pracovalo
+-petrik: vizualna cast je ceresnicka , mozno by stacila konzolova apka , hlavnou pointou je mat siet senzorou ktorou vies hocikde deploynut , budeme to skusat najprv tu na fiitke  , dostanete akceptacne testy use casy, je to na zvysovanie bezpecnosti , sledovanie ludi , heartbeat rate , varovanie ludi a tak , s vizualizacnym aspektom je to topka , aspon   v tej statickej forme , ked to bude 3d tak to prida velmi vela pridanej hodnoty
+-petrik: riesenia by malo byt modularne a skalovatelne - apiny atd
+-petrik: treba pracovat na architekture aby ludia vedeli co maju programovat
+-petrik: mozno aj desktopova apka moze byt ?
+-matus sa bavi s nim o jadrach na virtualke , sa zhodli ze daju 256 datovy , potom sa ked tak mountne dalsi
+-petrik: bude to tym raspberickom cize to by bolo dobre namodelovat lebo uz viete tie toky dat...
+ulohy do dalsieho tyzdna od petrika:
+    -excel
+    -architektura
+    -mockup figma
+    -nieco s vizualizaciou
+    -topologia
+    -nieco so serverom
+    -modely na vision kuknut

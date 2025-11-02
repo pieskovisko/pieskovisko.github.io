@@ -33,10 +33,10 @@ const TeamMembers: TeamMember[] = [
 		name: "Dušan Havlík",
 		description: "Since childhood, he has been involved in low-level programming of resource-limited embedded devices, processor design and development of bare-metal applications and operating systems. He also has knowledge from web development - mainly databases and frontend with focus on graphics programming through WebGL. In his free time, he designs compilers and develops games."
 	},
-	{
-		name: "Lenka Chorvatovičová",
-		description: "At work, she focuses on frontend, but would like to expand her horizons and work on backend aspects as well. She also has experience with agile development, design and machine learning focused on medical purposes (bachelor's project - QSAR models)."
-	}
+	// {
+	// 	name: "Lenka Chorvatovičová",
+	// 	description: "At work, she focuses on frontend, but would like to expand her horizons and work on backend aspects as well. She also has experience with agile development, design and machine learning focused on medical purposes (bachelor's project - QSAR models)."
+	// }
 ];
 
 function TeamMemberCard({ name, description }: TeamMember) {
