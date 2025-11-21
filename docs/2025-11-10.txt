@@ -1,0 +1,13 @@
+-role management aby bol lahko vyklikatelny
+->aby si vedeli nastavit prava v ramci systemu ze co vidia atd.
+-->bare minimum by stacilo mat 3 roly, ale realne bude treba nastavit asi kazdemu uplne custom (kyklop by bol good)
+-architekturu nejak abstraktnejsie nejak blizsie mozno modelovat
+->server ake by mal mat funckionality , co budes z neho potrebovat
+-->venujte sa tomu 
+--->zatial sa focusujte na softverovy podvozok a hardver rozhybeme dalsi tyzden
+-zaklady mate dobre , pride hardver tak sa to rozhybe
+-kyklop deploynut
+
+-ako budeme uchovavat data o miestnosatch - budeme si asi musiet navrhnut vlastny format alebo pojdeme do stlka 
+-v postgre je postgis a mate vybavene
+-petrik sa rozpraval s dubcom a v podstate robi nieco pozicne ale s wifinam ze chce svietit wifinami a podla toho zistovat ze co sa deje v miestnosti a povedal ze si naskenoval mobilom kniznicu a ze mu to pekne vyhodilo a ma to ulozene v postgise
