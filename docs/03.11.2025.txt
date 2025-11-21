@@ -1,0 +1,52 @@
+
+- urobit demo na Prometheus/to druhe
+
+poznamky popri prezentacii k jednotlivych slidom
+
+Organization View AS IS:
+- nič 
+
+Motivation View:
+- nič
+
+Requirements Realization View:
+- 
+
+Technology Cooperation View:
+- z aplikačneho serveru by ste mali vediet posielať na watchky (mozno cez WS sa da)
+-
+
+Komponent diagram:
+- kafka je celkom dobry napad
+- vypadkom by malo zabranit ze to robime cez kubernetes, ze to robime cez pod
+- co sa tyka WS, zalezi co vsetko sa bude posielat na frontend do tej aplikacie, uvidite aka bude narocnost, ako liat a ako casto (ked casto, tak radsej ws ako http)
+- mqtt ma nejake limitacie? nie, my ten limit nedosiahneme tak lahko a podporuje to aj klustrovanie
+- otazka ku gatewayu aby to bolo modularne: ked bude velke mnozstvo dat, ale viac, takze treba mysliet na skalovanie, ze to jedna aplikacia nepotiahne, ked napr. by sme mali 200 kamier, podla toho ako casto sa bude vyhodnocovat
+- uz teraz je to dost dobre, ale mozeme sa dohadovat na dalsich veciach, ci python, javascript atd
+- ako potom na RPI deployovat kod? ci cez docker compose alebo ansiblom (nvm jak sa to pise)
+
+yolo:
+- idealne je to na edge (cize dobre my), aby tam nebolo velke zahltenie a overhead
+- na low priority monitoring je fajn, ale tam kde potreujes mat viac a kazdu sekundu update, tak treba brat do uvahy kapacitu RPI 5
+- dalsia moznost: nepouzivat videokameru ale event-kameru, lebo ti dokaze minimalizovat tok dat
+- ci to vie pocitat ludi
+- ako to vie rozoznat crowded places
+- ci to vie zistit ze je v miestnosti pes atd
+
+erd:
+- nieco k measures 
+- wearable - employee - wearable measurement boli nejake poznamky
+
+frontend:
+- 
+
+3d:
+- three.js
+- bude uz na nas ako si uchovane informacie a ako s tym vie robit a co nam bude najviac vyhovovat
+- ak budeme vediet nacitat co najviac veci, tym lepsie
+
+do dalsieho tyzdna:
+- pokracovat na architekture
+- ist nizsie, porozmyslat nad implementaciou
+- tooly na manazment kodu jednotnu ci cez bluecko alebo venv
+- dohodnut sa na notacii
