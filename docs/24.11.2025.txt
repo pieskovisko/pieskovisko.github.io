@@ -1,0 +1,44 @@
+- príde investor
+- poradí nám veci, máme sa ho pýtať
+- ocakava PowerPoint prezentaciu
+- treba tam dat vsetko
+- musime byt na to pripraveny, ziaden freestyle
+- nemame si spravit hanbu!
+
+- architektura, use cases a celkovy navrh riesenia
+- bude brat do uvahy v akom stave je
+- namockovat si data, toto co mame, ukazat obrazovky, architektury, use cases,
+- peknu prezentaciu - biznisovo orientovanu
+- infrakstrukturu, senzory, toto kvoli tomu, preco toto, use cases odprezentovat
+- obrazovky ake mame atd
+
+mame ist do pipeline/env a takych detailov, ci ho to bude zaujimat:
+- kludne mozeme spomenut, ze robime infrakstrukturu DevOps
+
+- spytat sa ho na use case a priestor na jeho otazky
+
+veci ohladom serveru:
+- ok
+
+backend:
+- 
+
+frontend:
+- chyba mu prehladova obrazovka, kde by si si vyklikal miestnosti, ktore by si chcel mat sledovane a rychle metriky, ktore by ti povedali kto tam je a aku ma teplotu atd, ze nejake atributy, ktore by si si vedel vyklikat
+- daco s floors/layouts moze byt confusing, lebo mozes mat viacero sektorov s pristupovym opravnenim
+- nazval by to skor floors, sector moze byt confusing, lebo mas zvycajne oblasti, kde mas nejake pravidla
+- paci sa mu ten dizajn, dobre ideas
+- 
+
+- prejdite si to 
+- pridajte diagramy, spajajte databazove layers
+- spiste si: ake mate use cases, preco ich mate
+- fakt si dajte zalezat na prezentacii
+
+databaza:
+- ukladajte si v jednych metrikach a radsej si potom prekonvertujte
+- zachytavanie warningov
+
+otazka:
+- ako budeme hodnoteny?
+    - 
