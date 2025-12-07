@@ -1,0 +1,13 @@
+-investor neprisiel , cize milan marcinco odprezentoval 'na sucho' 
+-MG: ak to ukazeme jozefovi (investor) tak to bude v pohode 
+-MG: kym nemate hardver - zacnite implementovat logiku triggerov atd - napr. clovek vliezol do prietore kde by nemal byt alebo clovek je niekde kde nema byt 
+-MG: myslite na to ze vy ste v tej prezke mali vyrenderovany 3d podorys, lebo my casto nebudeme mat podorys ale iba zony , ako napr. zona vratnica , zona vyroba, zona sklad a nebudeme vediet ako spolu suvisia . nepotrebujeme suradnice lebo moze sa stat ze mam zonu kde nepoznam ohranicenie ale ak je nejaky signal silnejsi z vyroby tak predpokladam ze je vo vyrobe alebo naopak moze byt aj v situacii ze mam byt v zone ale nic ma nezachytilo tak tam asi niesom , a potom treti scenar aj to ze v nejakej zone mam nezname zariadenie - nepotrebujem poznat kde presne ale ze je v zone kde by nemal byt nic a nejaky telefon tam chodi - tak toto chcem vediet 
+-MG:trilateriacia dava zmysle ka mam mapu a poznam realie , ale na nejakych scenaroch mi staci iba poloha na zaklade k-nearest neeighbours - cize aj totu vetvu mozte softverovo rozpracovat 
+-MG:tu presnu mapku nechceme zahdit ale chceme mat ako moznost 
+-MG: chcem mat aj trilateraciu ale ak nepoznam tak chcem mat aj moznost ze robim priradenie len na zaklade nejakych najsilnejsich signalov 
+-MG: pretoze je kopa priestorov kde staci 1 senzor cize trilateracia ti je na prd 
+-MG:mas vela scenarov , ak si v nejakom senior house , tak vies ze o 1 rano pacient nema co robit v kuchyni - tebe je u prdele ci je vlavo ci vpravo - a z pohladu prevadzky je to jednoduchsie a lacnejsie na implementaciu 
+-MG:kamery nemaju ludia radi , je to zasah do sukromia , snazime sa predchadzat kameram 
+-MG:mmwaves radary su nieco co tam chceme vidiet urcite, aj peerka 
+-MG:skuste si vybrat nejaky scenar - prehlad nejakych priestoroch ze tu je prazdny priestor a nema byt prazdny priestor - alebo ze tu je nejaky clovek kde nema byt - aby videl ze takto to bude vyzerat ak je nieco zle - jeden screen na zonovu lokalizaciu a jeden screen na to druhe 
+-MG: chvalim vyber keycloak -
