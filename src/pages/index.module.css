@@ -21,3 +21,39 @@
 	align-items: center;
 	justify-content: center;
 }
+
+.heroContent {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+}
+
+.heroText {
+	text-align: left;
+}
+
+.heroLogo {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+	flex-shrink: 0;
+}
+
+@media screen and (max-width: 996px) {
+	.heroContent {
+		flex-direction: column;
+		gap: 1rem;
+	}
+	
+	.heroText {
+		text-align: center;
+	}
+	
+	.heroLogo {
+		width: 120px;
+		height: 120px;
+	}
+}

@@ -66,7 +66,7 @@ export default function TeamProfiles(): ReactNode {
 	return (
 		<section className={styles.teamSection}>
 			<div className="container">
-				<div className="text--center margin-bottom--xl">
+				<div className="text--center margin-bottom--lg">
 					<Heading as="h2">Our Team</Heading>
 				</div>
 				<div className="row">
