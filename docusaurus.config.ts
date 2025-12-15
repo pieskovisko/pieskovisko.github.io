@@ -5,8 +5,8 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-	title: "Team 1 - Pieskovisko",
-	tagline: "TARS - Technological Assistance for Reliable Safety",
+	title: "Pieskovisko",
+	tagline: "TARS",
 	favicon: "favicon_io/favicon.ico",
 
 	// Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
