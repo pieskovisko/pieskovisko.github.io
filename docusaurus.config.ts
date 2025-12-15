@@ -7,7 +7,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
 	title: "Team 1 - Pieskovisko",
 	tagline: "TARS - Technological Assistance for Reliable Safety",
-	favicon: "img/favicon.png",
+	favicon: "favicon_io/favicon.ico",
 
 	// Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
 	future: {
@@ -15,15 +15,15 @@ const config: Config = {
 	},
 
 	// Set the production url of your site here
-	url: "https://your-docusaurus-site.example.com",
+	url: "https://pieskovisko.marcinco.xyz/",
 	// Set the /<baseUrl>/ pathname under which your site is served
 	// For GitHub pages deployment, it is often '/<projectName>/'
 	baseUrl: "/",
 
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
-	organizationName: "facebook", // Usually your GitHub org/user name.
-	projectName: "docusaurus", // Usually your repo name.
+	organizationName: "Pieskovisko", // Usually your GitHub org/user name.
+	projectName: "TARS", // Usually your repo name.
 
 	onBrokenLinks: "throw",
 
@@ -71,7 +71,7 @@ const config: Config = {
 
 	themeConfig: {
 		// Replace with your project's social card
-		image: "img/docusaurus-social-card.jpg",
+		image: "favicon_io/apple-touch-icon.png",
 		colorMode: {
 			respectPrefersColorScheme: true,
 		},
@@ -79,7 +79,7 @@ const config: Config = {
 			title: "Pieskovisko",
 			logo: {
 				alt: "Pieskovisko Logo",
-				src: "img/favicon.png",
+				src: "favicon_io/apple-touch-icon.png",
 			},
 			items: [
 				{
@@ -94,7 +94,7 @@ const config: Config = {
 				// 	position: "left",
 				// },
 				{
-					href: "https://github.com/facebook/docusaurus",
+					href: "https://github.com/pieskovisko/",
 					label: "GitHub",
 					position: "right",
 				},
