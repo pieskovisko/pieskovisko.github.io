@@ -1,0 +1,11 @@
+measurements by mali mat timestamps
+zamerajte sa na pridavanie senzorov a tych zon
+vyskusajte spravit 3D vizualizaciu priestorov
+nejake klikatko, dragovanie, pridavanie, presuvanie senzorov
+tie senzory vieme ake data by mohli posielat, tak mockovat data/API, keby vieme trackovat ludi cez to tak fajn (?)
+vedeli by sme to spustit ako nejake cron joby na severi alebo zadefinovat skript, ktoru bude kazde dve sekundy bude updatovat polohu (?)
+najprv mat nejaku rolu, mozu ist do nejakej zony, ma group permissions, potom nejake individual permissions, potom porovnas timestampy
+pouzivatel moze mat viac roli, tak moze treba mat bacha
+prejdite si aickom kazdy zdrojak a nech spravi komentare a dokumentaciu
+vyskusajte codex, nejaky nacrt na tie 3D
+existujuci format nieco nieco
