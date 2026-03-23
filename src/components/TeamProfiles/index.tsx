@@ -22,7 +22,7 @@ const TeamMembers: TeamMember[] = [
 	},
 	{
 		name: "Martin Hnatko",
-		description: "Enjoys containerization, CI/CD, UML, UX, has problem-solving skills and frontend basics.",
+		description: "Frontend, UML",
 		photo: require("@site/static/images/martin-hnatko.jpg").default
 	},
 	{
