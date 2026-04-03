@@ -1,0 +1,3 @@
+dvgcko import fakt poriesit, lebo to je backbone
+do kreslitka vediet pridavat kamerky/senzory
+floorplan ocr
